@@ -7,7 +7,7 @@ This project implements a basic CRUD API using ExpressJS and TypeScript, connect
 Before running the application, ensure you have the following installed:
 
 - Node.js (version 12 or higher)
-- npm 
+- npm
 - TypeScript (ensure TypeScript is installed globally)
 - MongoDB (ensure created account and running)
 
@@ -16,8 +16,14 @@ Before running the application, ensure you have the following installed:
 1. Clone the repository:
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/TienDorothy/nguyen-thi-cam-tien-code-challenge-backend.git
 ```
+
+```
+cd nguyen-thi-cam-tien-code-challenge-backend/problem5
+```
+
+cd problem5
 
 2. Install dependencies:
 
@@ -67,19 +73,19 @@ npm start
 root/
 ├── src/
 │   ├── controllers/
-│   │   └── user.controller.ts 
+│   │   └── user.controller.ts
 │   ├── models/
-│   │   └── user.model.ts     
+│   │   └── user.model.ts
 │   ├── routes/
-│   │   └── user.route.ts 
-│   ├── index.ts            
-├── .env                
-├── .gitignore               
-├── nodemon.json                
-├── package-lock.json            
-├── package.json             
-└── README.md                      
-└── tsconfig.json                      
+│   │   └── user.route.ts
+│   ├── index.ts
+├── .env
+├── .gitignore
+├── nodemon.json
+├── package-lock.json
+├── package.json
+└── README.md
+└── tsconfig.json
 
 ```
 
